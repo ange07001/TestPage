@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+.Header {
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 50px;
+    color: white;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 10px;
+}
+.Nav {
+    background-color: rgb(81, 126, 128);
+    overflow: hidden;
+}
+.Nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.Nav a:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+.Text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 10px;
+    margin: 7px;
+
+}
+.TextHeader {
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+}
+div.Aritcle {
+    width: 100%;
+    overflow: auto;
+   
+    
+}
+div.Article div {
+    width: 50%;
+    float: left;
+    
+}
+
